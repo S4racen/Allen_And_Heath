@@ -1,7 +1,7 @@
 from _Framework.ButtonElement import ButtonElement
 
 from _Framework.ControlSurface import ControlSurface
-from LividConstants import *
+from AllenAndHeathConstants import *
 
 MIDI_NOTE_TYPE = 0
 MIDI_CC_TYPE = 1
