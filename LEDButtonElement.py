@@ -1,4 +1,4 @@
-from LividConstants import *
+from AllenAndHeathConstants import *
 from Elementary import Elementary
 
 from FlashingButtonElement import FlashingButtonElement
