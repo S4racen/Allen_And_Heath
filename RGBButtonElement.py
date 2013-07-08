@@ -1,6 +1,6 @@
 from FlashingButtonElement import FlashingButtonElement
 from _Framework.ButtonElement import ButtonElement
-from LividConstants import *
+from AllenAndHeathConstants import *
 
 class RGBButtonElement(FlashingButtonElement):
   'Modified ButtonElement with configurable off and on states'
