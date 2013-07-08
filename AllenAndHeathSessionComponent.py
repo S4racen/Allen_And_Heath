@@ -1,6 +1,6 @@
 import Live
 
-from LividConstants import *
+from AllenAndHeathConstants import *
 from Elementary import Elementary
 
 from _Framework.SessionComponent import SessionComponent
@@ -9,7 +9,7 @@ from _Framework.ButtonElement import ButtonElement
 from RGBButtonElement import RGBButtonElement
 
 # Fuck yeah multiple inheritance
-class LividSessionComponent(SessionComponent, Elementary):
+class AllenAndHeathSessionComponent(SessionComponent, Elementary):
   def __init__(self, matrix = [], 
       navigation = None, 
       scroll_navigation = None,
