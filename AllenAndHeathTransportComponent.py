@@ -1,5 +1,5 @@
 import Live
-from LividConstants import *
+from AllenAndHeathConstants import *
 
 from _Framework.TransportComponent import TransportComponent
 from RGBButtonElement import RGBButtonElement
