@@ -2,7 +2,7 @@ import Live
 
 
 from LividConstants import *
-from LividChanStripComponent import LividChanStripComponent
+from AllenAndHeathChanStripComponent import AllenAndHeathChanStripComponent
 from RGBButtonElement import RGBButtonElement
 from Elementary import Elementary
 
@@ -10,7 +10,7 @@ from _Framework.MixerComponent import MixerComponent
 from _Framework.EncoderElement import EncoderElement 
 
 
-class LividMixerComponent(MixerComponent, Elementary):
+class AllenAndHeathMixerComponent(MixerComponent, Elementary):
   def __init__(self, 
     sends = [], 
     mutes = [], 
@@ -84,7 +84,7 @@ class LividMixerComponent(MixerComponent, Elementary):
     return (self.song().visible_tracks + self.song().return_tracks)
 
   def _create_strip(self):
-    return LividChanStripComponent()
+    return AllenAndHeathChanStripComponent()
 
   def extend(self, list):
     list.extend([None] * (self.num_tracks - len(list)))
