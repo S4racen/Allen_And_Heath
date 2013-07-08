@@ -1,6 +1,6 @@
 import Live
 
-from LividConstants import *
+from AllenAndHeathConstants import *
 
 from Elementary import Elementary
 from _Framework.ControlSurfaceComponent import ControlSurfaceComponent
