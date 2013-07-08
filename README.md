@@ -1,9 +1,8 @@
-Livid Framework
+AllenAndHeath Framework
 ---------------
 
-To install, the folder MUST be called _Livid_Framework
+To install, the folder MUST be called _AllenAndHeath_Framework
 
-### TODO
-* Cascading options for controls: default, ControlSurfaceComponent and inline
-* Parameterize the on_color and off_color for most ControlSurfaceComponents
-* Support for custom assignment of empty/present/playing/recording colors on a *per clip* basis(delegate to method w/ args)
+This Framework was created by WillJMArshall a God amongst men...
+
+Updated for distribution by Isotonikstudios.com for use with Max4Live and their Isotonik K2 device...
