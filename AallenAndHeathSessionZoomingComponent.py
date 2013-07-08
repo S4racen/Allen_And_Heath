@@ -1,10 +1,10 @@
-from LividConstants import *
+from AllenAndHeathConstants import *
 from RGBButtonElement import RGBButtonElement
 from Elementary import Elementary
 
 from _Framework.SessionZoomingComponent import SessionZoomingComponent
 
-class LividSessionZoomingComponent(SessionZoomingComponent, Elementary):
+class AllenAndHeathSessionZoomingComponent(SessionZoomingComponent, Elementary):
   """ Customized session zoom component with a real init function """
 
   def __init__(self, 
