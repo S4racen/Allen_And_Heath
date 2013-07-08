@@ -1,5 +1,5 @@
 import Live
-from LividConstants import *
+from AllenAndHeathConstants import *
 
 from RGBButtonElement import RGBButtonElement
 from _Framework.EncoderElement import EncoderElement
