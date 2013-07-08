@@ -1,9 +1,9 @@
 import Live
-from LividConstants import *
+from AllenAndHeathConstants import *
 from Elementary import Elementary
 from _Framework.ControlSurfaceComponent import ControlSurfaceComponent
 
-class LividVUMeter(ControlSurfaceComponent, Elementary):
+class AllenAndHeathVUMeter(ControlSurfaceComponent, Elementary):
   """ An abstraction for a VU meter using a single MIDI CC"""
 
   def __init__(self, target, led_range = [0.52, 0.92], track = "master", parent = None, **kwargs):
