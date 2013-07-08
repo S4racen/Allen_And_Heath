@@ -4,7 +4,7 @@ from RGBButtonElement import RGBButtonElement
 from Elementary import Elementary
 from _Framework.ControlSurfaceComponent import ControlSurfaceComponent
 
-class LividBlinker(ControlSurfaceComponent, Elementary):
+class AllenAndHeathlinker(ControlSurfaceComponent, Elementary):
   """ Control surface component that will init and blink an LED on a timer"""
 
   def __init__(self, led = None, **kwargs):
