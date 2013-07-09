@@ -11,8 +11,8 @@ class AllenAndHeathControlSurface(ControlSurface):
     self.set_suppress_rebuild_requests(True) #Turn rebuild back on, now that we're done setting up
     self.awaiting_refresh = False
     self._device_selection_follows_track_selection = True
-    self._suggested_input_port = ('K2')
-    self._suggested_output_port = ('K2')
+    self._suggested_input_port = ('XONE:K2')
+    self._suggested_output_port = ('XONE:K2')
     self.setup_mixer()
     self.setup_session()
     self.setup_transport()
