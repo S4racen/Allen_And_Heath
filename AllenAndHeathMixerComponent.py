@@ -1,7 +1,7 @@
 import Live
 
 
-from LividConstants import *
+from AllenAndHeathConstants import *
 from AllenAndHeathChanStripComponent import AllenAndHeathChanStripComponent
 from RGBButtonElement import RGBButtonElement
 from Elementary import Elementary
