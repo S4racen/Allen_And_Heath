@@ -1,7 +1,7 @@
 AllenAndHeath Framework
 ---------------
 
-To install, the folder MUST be called _AllenAndHeath_Framework
+To install, the folder MUST be called _Allen_And_Heath_Framework
 
 This Framework was created by WillJMArshall a God amongst men...
 
